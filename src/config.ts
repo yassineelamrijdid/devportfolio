@@ -1,91 +1,124 @@
+const newLocal = "";
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "EL AMRI Yassine",
+  title: "DATA Scientist",
+  description: "Portfolio website of EL AMRI Yassine",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "yassineelamrijdid@gmail.com",
+    linkedin: "https://www.linkedin.com/in/yassine-el-amri-5940b5228/",
+
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Since childhood, I have always seen words and numbers as the key drivers of human progress. This vision naturally led me to pursue Data Science as both my academic and professional path — a field defined by its diversity, innovation, and global reach. Throughout my journey, I have developed strong expertise in data processing, analysis, and manipulation, allowing me to transform raw information into meaningful insights and solutions. I am currently in my final year of engineering studies and seeking a graduation internship (PFE) that will allow me to apply my skills, gain hands-on experience, and contribute meaningfully to innovative projects.",
+  skills: ["Excel",
+        "Power BI",
+        "Tableau",
+        "SQL","python",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "Pandas","Apache Spark",
+        "Apache Airflow",
+        "Apache Kafka","Hadoop",
+        "Spark","Django","streamlit", "React.js", "Node.js", "git", "Azur", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Deep reinforcement learning project",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "-Evaluation and improvement of a deep reinforcement learning model for the planning of condition-based maintenance operations in a large-scale industrial system.",
+      //link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["Python","PyTorch", "gymnasium", "numpy","..."],
+      location: "CentraleSupelec",
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Semantic Search & AI Chatbot for Technical Documents",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed an AI-powered technical document retrieval system, featuring a scalable ETL pipeline for large volumes of files, a semantic search engine with intelligent ranking, and an LLM/RAG chatbot with high accuracy. Deployed the complete solution using Docker",
+      //link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: ["ETL", "RAG", "LLMs",'Django',"Docker","..."],
+      
     },
     {
-      name: "ExtensionKit",
+      name: "Data Visualization & Decision Support Project",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "orrected and upgraded the database provided by INEOS, developed a data visualization tool using Power BI, and leveraged this tool to support the company’s strategic decision-making.",
+      //link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Power BI", "streamlit", "Seaborn","..."],
+    },
+    {
+      name: "Risk Management and Portfolio Optimization.",
+      description:
+        "Implemented strategies to minimize market risks by constructing an Equal Risk Contribution (ERC) portfolio and performing risk decomposition. Analysed performance and risk indicators to evaluate portfolio behavior and assessed the properties of risk-based investment strategies.",
+      //link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Python", "performance indicators", "matplotlib","..."],
+    },
+    {
+      name: "Plant Disease Detection Using CNN",
+      description:
+        "Developed a Convolutional Neural Network (CNN) model to accurately detect and classify plant diseases from images, improving early diagnosis and supporting precision agriculture initiatives.",
+      //link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Python", "performance indicators", "matplotlib","..."],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Diot siaci - Paris",
+      title: "Data Scientist Apprentice",
+      dateRange: "sept 2023 - sept 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "OCR Tool Development – Extract data from unstructured sources (PDFs) and convert to structured formats (Excel).",
+        "Table Matching Tool – Enable comparison of warranty tables using semantic search with embeddings.",
+        "Intelligent Claims Analysis – Implement RAG-based system for advanced claims insights.",
+        "Web Development Support – Contributed to Django web application.",
       ],
     },
+    
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "MICRODATA - Casablanca",
+      title: "Data scientist  & Developer",
+      dateRange: "juillet 2022 - aout 2022S",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Performed customer review sentiment analysis using NLP techniques.",
+        "Processed and cleaned textual data, then analyzed sentiment and visualized insights.",
+        "Developed a customer management application using Angular and Spring Boot.",
       ],
     },
   ],
   education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+        {
+      school: "École Centrale Casablanca - Casablanca, Morocco",
+      degree: "3rd Year of a General Engineering Program – Data Science Specialization",
+      dateRange: "Septembre 2025 - Septembre 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+      ],
+    },
+      {
+      school: "Paris Dauphine University PSL - Paris, France",
+      degree: "Master’s Degree (M2), Apprenticeship – Statistical Engineering and Finance, Mathematics & Applications Track",
+      dateRange: "Septembre 2023 - Septembre 2024",
+      achievements: [
+      ],
+    },
+            {
+      school: "CentraleSupelec - Gif-sur-Yvette, France",
+      degree: "Exchange program - ERASMUS",
+      dateRange: "Janvier 2023 - juin 2023",
+      achievements: [
+      ],
+    },
+        {
+      school: "École Centrale Casablanca - Casablanca, Morocco",
+      degree: "Years 1–2 of  General Engineering Degree",
+      dateRange: "Septembre 2021 - Janvier 2023",
+      achievements: [
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "CPGE Lissan eddin ibn lkhatib - Laayoune, Morocco",
+      degree: "Preparatory Classes for Grandes Écoles – MP",
+      dateRange: " Septembre 2019 - juin 2021",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
