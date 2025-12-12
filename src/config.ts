@@ -61,30 +61,32 @@ export const siteConfig = {
       skills: ["Python", "performance indicators", "matplotlib","..."],
     },
   ],
-  experience: [
-    {
-      company: "Diot siaci - Paris",
-      title: "Data Scientist Apprentice",
-      dateRange: "sept 2023 - sept 2024",
-      bullets: [
-        "OCR Tool Development – Extract data from unstructured sources (PDFs) and convert to structured formats (Excel).",
-        "Table Matching Tool – Enable comparison of warranty tables using semantic search with embeddings.",
-        "Intelligent Claims Analysis – Implement RAG-based system for advanced claims insights.",
-        "Web Development Support – Contributed to Django web application.",
-      ],
-    },
-    
-    {
-      company: "MICRODATA - Casablanca",
-      title: "Data scientist  & Developer",
-      dateRange: "juillet 2022 - aout 2022S",
-      bullets: [
-        "Performed customer review sentiment analysis using NLP techniques.",
-        "Processed and cleaned textual data, then analyzed sentiment and visualized insights.",
-        "Developed a customer management application using Angular and Spring Boot.",
-      ],
-    },
-  ],
+experience: [
+  {
+    company: "Diot Siaci - Paris",
+    title: "Data Scientist Apprentice",
+    dateRange: "Sept. 2023 - Sept. 2024",
+    bullets: [
+      "Parsing Tool Development – Implemented a pipeline to extract data from PDFs and convert it into structured formats (Excel).",
+      "Table Comparison Tool – Developed a semantic system using embeddings to compare and align rows in warranty tables.",
+      "Intelligent Claims Analysis – Implemented a QA/RAG system to provide advanced insights and automated analysis of claims.",
+      "Web Development Support – Contributed to the development and improvement of a Django web application.",
+      "Technologies used – Python, Pandas, Scikit-learn, Transformers, PyTorch, Django, Excel, Git, Azure."
+    ],
+  },
+  {
+    company: "MICRODATA - Casablanca",
+    title: "Data Scientist & Developer Intern",
+    dateRange: "June 2022 - Aug. 2022",
+    bullets: [
+      "Data Processing and Visualization – Cleaned, prepared, and analyzed textual data, then visualized the insights.",
+      "Email Classification – Developed a model to automatically categorize emails using NLP techniques.",
+      "Web Application Development – Built a customer management application using Angular and Spring Boot.",
+      "Technologies used – Python, Pandas, NLTK, Scikit-learn, Angular, Spring Boot, Git, MySQL."
+    ],
+  },
+],
+
   education: [
         {
       school: "École Centrale Casablanca - Casablanca, Morocco",
